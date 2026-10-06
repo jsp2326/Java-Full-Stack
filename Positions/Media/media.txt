@@ -1,0 +1,24 @@
+Media Quries:
+-------------
+
+Help to create a responsive website
+
+
+@media(width:500px){
+    div{
+        background-color:red;
+    }
+}
+
+
+@media(min-width:500px){
+    div{
+        background-color:red;
+    }
+}
+
+@media(min-width:400px)and(min-width:500px){
+    div{
+        background-color:red;
+    }
+}

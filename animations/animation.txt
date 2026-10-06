@@ -1,0 +1,21 @@
+Animation Properties
+
+    animation-name
+    animation-duration
+    animation-timing-function
+
+    -
+
+
+Animation Shorthand:
+
+    animation:myname 2s linear 3s infinite normal
+
+
+% in Animation:
+
+    @keyframe myName{
+        0%{font-size:20px;}
+        50%{font-size:30px;}
+        100%{font-size:40px;}
+    }

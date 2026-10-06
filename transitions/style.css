@@ -1,0 +1,15 @@
+div{
+    height:200px;
+    width: 200px;
+    background-color:brown;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+div:hover{
+    background-color:aqua;
+    font-size: 30px;
+}
+div:active{
+    background-color:burlywood;
+}

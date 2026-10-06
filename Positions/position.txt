@@ -1,0 +1,20 @@
+Position:
+---------
+
+
+        -static : Default Position
+        -relative : Element is relative to itself.
+        -absolute : positined relative to its closest positined ancestor
+        -fixed : Positioned relative to browser.
+        -sticky : positined based on user's scroll position
+
+
+Z-indx:
+------
+
+it decides the stack level of elsements
+Overlapping elements with a larger z-index cover those with a smaller one.
+
+        z-index: auto(0)
+        z-index:1/2/...
+        z-index:-1/-2/...

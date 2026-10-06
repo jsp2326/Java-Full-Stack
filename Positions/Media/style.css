@@ -1,0 +1,22 @@
+div{
+    height: 300px;
+    width: 300px;
+    border:2px solid black;
+    background-color: aqua;
+}
+@media(width:200px){
+    div{
+        background-color:red;
+    }
+}
+@media(min-width:200px){
+    div{
+        background-color:antiquewhite;
+    }
+}
+
+@media(min-width:400px)and(min-width:500px){
+    div{
+        background-color:rgb(216, 27, 160);
+    }
+}

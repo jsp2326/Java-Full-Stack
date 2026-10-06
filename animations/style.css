@@ -1,0 +1,17 @@
+.loader{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border-radius: 50%;
+    border: 20px dotted red;
+    border-top: 20px solid greenyellow;
+    animation: rotate 2s linear 2s infinite normal;
+}
+@keyframes rotate {
+    from{
+        transform: rotate(20deg);
+    }to{
+        transform: rotate(360deg);
+    }
+    
+}
